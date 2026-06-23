@@ -16,8 +16,16 @@ BASE
 ========================================== */
 
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 120px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 180px;
+}
+
+@media (max-width: 768px) {
+
+    html {
+        scroll-padding-top: 240px;
+    }
+
 }
 
 body {
